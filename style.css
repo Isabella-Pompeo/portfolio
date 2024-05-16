@@ -128,8 +128,8 @@ span {
 .home-img img {
     position: relative;
     top: 3rem;
-    width: 350px;
-    height: 350px;
+    width: 30vw;
+    height: 37vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -261,7 +261,7 @@ span {
     }
     81%,
     100% {
-      content: "Software Tester";
+      content: "JavaScript Developer";
     }
   }
   
