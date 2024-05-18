@@ -291,7 +291,7 @@ span {
     }
   }
 
-   section p#sobre-mim {
+   .sobre-mim {
     font-size: 1.5rem;
    } 
   
@@ -593,13 +593,13 @@ span {
         left: 7px;
     }
 
-    .timeline-items::nth-child(odd) {
+    .timeline-item:nth-child(odd) {
       padding-right: 0;
       text-align: left;
     }
 
-    .timeline-items::nth-child(odd),
-    .timeline-items::nth-child(even) {
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
       padding-left: 37px;
     }
 
@@ -673,8 +673,8 @@ span {
     }
 
     .home-img img {
-      width: 40vw;
-      height: 40vh;;
+      width: 56vw;
+      
     }
 
     .services h2 {
