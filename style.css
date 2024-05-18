@@ -580,7 +580,6 @@ span {
         margin: 0 5 rem;
     }
   }
-
   @media(max-width:991px) {
     header {
         padding: 2rem 3%;
@@ -595,7 +594,7 @@ span {
     }
 
     .timeline-items::nth-child(odd) {
-      padding-left: 0;
+      padding-right: 0;
       text-align: left;
     }
 
@@ -624,7 +623,6 @@ span {
       padding: 2rem 3%;
     }
   }
-
   @media(max-width:895px) {
     #menu-icon {
       display: block;
@@ -644,7 +642,7 @@ span {
       display: none;
     }
 
-    .navbar .active {
+    .navbar.active {
       display: block;
     }
 
@@ -675,8 +673,8 @@ span {
     }
 
     .home-img img {
-      width: 60vw;
-      height: 60vh;;
+      width: 40vw;
+      height: 40vh;;
     }
 
     .services h2 {
