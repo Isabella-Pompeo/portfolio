@@ -124,7 +124,7 @@ span {
 .home-img {
     position: relative;
     top: 3rem;
-    width: 500px; /* Largura do círculo */
+    width: 500px; 
     height: 400px; /* Altura do círculo (igual à largura para formar o círculo) */
     border-radius: 50%; /* Faz o elemento ser um círculo */
     overflow: hidden; /* Garante que a imagem não saia do círculo */
