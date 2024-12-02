@@ -407,6 +407,97 @@ span {
     width: 50px;
   }
 
+  .portfolio {
+    background: var(--bg-color);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.712), 4px 4px 8px rgba(0, 0, 0, 0.781);
+  }
+
+  .portfolio h2 {
+    margin-bottom: 5rem;
+    color: white;
+  }
+
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .portfolio-box {
+    background-color: var(--main-color);
+    
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+
+  .portfolio-box:hover {
+    background-color: white;
+    color: var(--main-color);
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+  }
+
+  .portfolio-box .portfolio-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5rem 5rem;
+  }
+
+  .portfolio-info h4 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 2;
+  }
+
+  .portfolio-info p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    max-height: 100px;
+    line-height: 1.7;
+    margin: auto;
+  }
+
+  .portfolio-foto1{
+    background-image: url('imagens/foto1.png'); 
+    background-size: cover; 
+  background-position: center; 
+  height: 300px;
+  border-radius: 3rem;
+  }
+
+  .portfolio-foto2{
+    background-image: url('imagens/foto2.png');
+    background-size: cover; 
+  background-position: center;  
+  height: 300px;
+  border-radius: 3rem;
+  }
+
+  .portfolio-foto3{
+    background-image: url('imagens/foto3.png'); 
+    background-size: cover; 
+  background-position: center; 
+  height: 300px;
+  border-radius: 3rem;
+  }
+
+  .portfolio-foto4{
+    background-image: url('imagens/foto4.png');
+    background-size: cover; 
+  background-position: center;  
+  height: 300px;
+  border-radius: 3rem;
+  }
+
+
   .services {
     background: var(--bg-color);
     color: black;
