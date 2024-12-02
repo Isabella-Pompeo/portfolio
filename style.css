@@ -675,6 +675,12 @@ span {
     html {
         font-size: 55%;
     }
+    
+     .portfolio-container {
+       padding-bottom: 7rem;
+       grid-template-columns: repeat(2, 1fr);
+       margin: 0 5 rem;
+     }
 
     .services-container {
         padding-bottom: 7rem;
@@ -707,6 +713,10 @@ span {
 
     .timeline-dot {
       left: 0;
+    }
+    
+    .portfolio {
+      padding-bottom: 7rem;
     }
 
     .services {
@@ -784,6 +794,14 @@ span {
       height: 100%;
       
     }
+    
+      .portfolio h2 {
+        margin-bottom: 3rem;
+      }
+    
+      .portfolio-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
 
     .services h2 {
       margin-bottom: 3rem;
