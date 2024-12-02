@@ -413,6 +413,11 @@ span {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.712), 4px 4px 8px rgba(0, 0, 0, 0.781);
   }
 
+  .portfolio a{
+    text-decoration: none;
+    color: white;
+  }
+
   .portfolio h2 {
     margin-bottom: 5rem;
     color: white;
