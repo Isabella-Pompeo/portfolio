@@ -122,18 +122,24 @@ span {
 }
 
 .home-img {
-    border-radius: 50%;
-}
-
-.home-img img {
     position: relative;
     top: 3rem;
-    width: 30vw;
-    height: 37vw;
-    border-radius: 50%;
+    width: 500px; /* Largura do círculo */
+    height: 400px; /* Altura do círculo (igual à largura para formar o círculo) */
+    border-radius: 50%; /* Faz o elemento ser um círculo */
+    overflow: hidden; /* Garante que a imagem não saia do círculo */
+    display: flex; /* Centra a imagem dentro do círculo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */  
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
+}
+
+.home-img img {
+    width: 100%; /* Ajusta a largura da imagem ao círculo */
+  height: 100%; /* Ajusta a altura da imagem ao círculo */
+  object-fit: cover;
 }
 
 .home-img img:hover {
@@ -768,9 +774,14 @@ span {
       margin: 0 auto;
     }
 
+    .home-img {
+      width: 400px;
+      height: 400px;
+    }
+
     .home-img img {
-      width: 47vw;
-      height: 30vh;
+      width: 100%;
+      height: 100%;
       
     }
 
